@@ -1,46 +1,29 @@
-# System of Linear Equation
+# Spline
 You must use the algorithm name specified in each problem
 
-## 1.Solving Linear System of Equations through LU decomposition</br >
+## Problem 1.Write a Quadratic spline function S(x) that interpolates the following data.
+</br >
+t =  (-1,0,0.5,1,2,5/2)</br >
+y = (2,1,0,1,2,3)</br >
+</br >
+and this data</br >
+t = (-4,1,2,3,5)</br >
+y = (1182,2,48,272,2262)</br >
+</br >
 
-```math
-\begin{align*}
-6x_1 -2x_2 +2x_3+4x_4 &= 16  \\
-12 x_1 -8x_2 +6x_3 +10x_4 &=26\\
-3x_1 -13x_2 +9x_3 +3x_4 &= -19\\
--6x_1 +4x_2 +x_3 -18x_4 &= -34
-\end{align*}
-```
-Solution is </br >
-```math
-x_1 =3, x_2=1, x_3= -2, x_4 =1,\\
-	 L=\begin{Bmatrix}
-		1&0&0&0\\
-		2&1&0&0\\
-		0.5&3&1&0\\
-		-1&-0.5&2&1
-	\end{Bmatrix},
-     U=\begin{Bmatrix}
-     	6&-2&2&4\\
-     	0&-4&2&2\\
-     	0&0&2&-5\\
-     	0&0&0&-3
-     \end{Bmatrix}
-```
+Note that </br >
+- your function should return the value of S for a given x..</br >
+- your function should be able to work on different n+1, the length of data.</br >
 
-## 2 Jacobi iterative method</br >
-```math
-A = \begin{Bmatrix}
-2&-1&0\\
--1&3&-1\\
-0&-1&2
-\end{Bmatrix}, b = \begin{Bmatrix}
-1\\
-8\\
--5
-\end{Bmatrix}
-```
-Solution is </br >
-```math
-x_1 =2, x_2=3, x_3= -1
-```
+## Problem 2.Write a Natural Cubic spline function S(x) that interpolates the following data.</br >
+
+t = (-4,1,2,3,5)</br >
+y = (1182,2,48,272,2262)</br >
+
+and this data</br >
+t =(-1,0,1)</br >
+y = (1,2,-1)</br >
+
+Note that </br >
+- your function should return the value of S for a given x..</br >
+- your function should be able to work on different n+1, the length of data.</br >
