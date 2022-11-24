@@ -4,4 +4,4 @@ import numpy as np
 def Problem1(x,xi,yi)
     #Quadratic Spline.
     #Your code here.
-    return #Your code here
+    return #Your code here return a scalar
