@@ -1,14 +1,8 @@
 import numpy as np
-
-def Jacobi(A,b,kmax):
-    n, = b.shape
-    x = np.zeros_like(b)
-
-    #Your code here
-    #end your code
-    return x
-            
+# You may or may not use numpy
 
 def Problem2(A,b):
-    return Jacobi(A,b,21)
+    #Natural Cubic Spline
+    #Your code here
+    return #Your code here
 
