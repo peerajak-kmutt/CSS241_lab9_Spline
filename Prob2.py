@@ -4,5 +4,5 @@ import numpy as np
 def Problem2(x,xi,yi):
     #Natural Cubic Spline
     #Your code here
-    return #Your code here
+    return #Your code here return a scalar
 
